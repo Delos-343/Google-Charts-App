@@ -1,0 +1,42 @@
+
+export const data = [
+    ["id", "childLabel", "parent", "size", { role: "style" }],
+    [0, "The UE", -1, 1, "black"],
+    [1, "Luna", 0, 5, "black"],
+    [2, "Mars", 0, 5, "black"],
+    [3, "The Belt", 0, 5, "black"],
+    [4, "Lovell City", 1, 0.5, "gold"],
+    [5, "Tiangkong", 1, 0.5, "red"],
+    [6, "Tianshang", 1, 0.5, "red"],
+    [7, "Neue Berlin", 1, 0.5, "red"],
+    [8, "Londres Nova ", 2, 0.5, "red"],
+    [9, "Hekate Thulons", 2, 0.5, "red"],
+    [10, "Mariner Valley", 2, 0.5, "red"],
+    [11, "Olympos", 2, 0.5, "gold"],
+    [12, "Elysium", 2, 0.5, "red"],
+    [13, "Phobos", 2, 0.5, "black"],
+    [14, "Deimos", 2, 0.5, "black"],
+    [15, "Ceres", 3, 0.5, "black"],
+    [16, "Tycho", 3, 1, "black"],
+    [17, "Jupiter", 15, 5, "black"],
+    [18, "Ganymede", 17, 0.5, "gold"],
+    [19, "Europa", 17, 0.5, "black"],
+    [20, "Callisto", 17, 0.5, "black"],
+    [21, "Io", 17, 0.5, "black"],
+    [22, "Saturn", 15, 5, "black"],
+    [23, "Titan", 22, 0.5, "gold"],
+    [24, "Iapetus", 22, 0.5, "black"],
+    [25, "Enceladus", 22, 0.5, "black"],
+    [26, "Uranus", 22, 5, "black"],
+    [27, "Pandora", 26, 5, "blue"],
+    [28, "Chyralon", 26, 5, "blue"],
+];
+  
+export const options = {
+    backgroundColor: "#eee",
+    wordtree: {
+      colors: ["#0c0c0c", "skyblue", "#eee"],
+      format: "explicit",
+      type: "suffix",
+    },
+};

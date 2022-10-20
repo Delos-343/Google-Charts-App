@@ -1,10 +1,13 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Navbar, GeoChart, PieChart, WordTree } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
+      <GeoChart />
+      <PieChart />
+      <WordTree />
     </>
   );
 }

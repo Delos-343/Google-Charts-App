@@ -2,11 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav id="header" className="w-full z-30 top-0 py-1 bg-white shadow-lg border-b border-blue-400">
-      <div className="w-full flex items-center justify-between mt-0 px-6 py-2">
+    <nav id="header" className="w-full z-30 py-5 bg-gray-100 shadow-lg border-b border-blue-400">
+      <div className="w-full flex items-center justify-between px-6 py-2">
          <label for="menu-toggle" className="cursor-pointer md:hidden block">
             <svg className="fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-               <title>menu</title>
+               <title> MENU </title>
                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
             </svg>
          </label>
@@ -27,11 +27,14 @@ const Navbar = () => {
                </ul>
             </nav>
          </div>
-         
          <div className="order-2 md:order-3 flex flex-wrap items-center justify-end mr-0 md:mr-4" id="nav-content">
-            <div className="auth flex items-center w-full md:w-full">
-               <button className="bg-transparent text-gray-800  p-2 rounded border border-gray-300 mr-4 hover:bg-gray-100 hover:text-gray-700">Sign in</button>
-               <button className="bg-blue-600 text-gray-200  p-2 rounded  hover:bg-blue-500 hover:text-gray-100">Sign up</button>
+            <div className="auth flex items-center w-full md:w-full font-semibold">
+               <button className="bg-transparent text-gray-800 p-2 rounded border border-gray-300 mr-4 hover:bg-gray-100 hover:text-gray-700">
+                  Github
+               </button>
+               <button className="bg-blue-600 text-gray-200 p-2 rounded hover:bg-blue-500 hover:text-gray-100">
+                  Linkedin
+               </button>
             </div>
          </div>
       </div>
