@@ -4,7 +4,7 @@ import Chart from 'react-google-charts'
 
 const WordTree = () => {
   return (
-    <div className="grid w-full px-4 py-8 align-middle justify-center bg-gray-100">
+    <div className="grid w-full py-8 align-middle justify-center bg-gray-100">
         <div className="pt-10 text-blue-600 text-left sm:text-center mr-36 sm:m-0 font-bold">
           <h1 className="text-2xl hidden sm:block"> Territories of the UE </h1>
           <p className="hidden sm:block font-semibold font-cursive py-1"> "The Rosenfeld Drive may not have given us the stars, but it did gave us the planets." </p>
